@@ -1,0 +1,10 @@
+Instant Setup
+=============
+
+ 0. install PHP and Composer
+ 1. `composer install`
+
+Develop
+=======
+
+write code and type `./phpunit`

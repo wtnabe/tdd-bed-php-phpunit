@@ -1,0 +1,6 @@
+#! /bin/sh
+
+# Each test filename must be defined as `CamelCase.php'
+# Each test case ( method ) name must start with 'test'
+
+./vendor/bin/phpunit --colors tests
