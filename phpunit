@@ -1,6 +1,9 @@
 #! /bin/sh
 
-# Each test filename must be defined as `CamelCase.php'
+#
+# Each test filename must be defined as `ClassName.php'
+#      map _ and \ to DIRECTORY_SEPARATOR
+#      ex) class Framework_AssertTest -> Framework/AssertTest.php
 # Each test case ( method ) name must start with 'test'
 
 ./vendor/bin/phpunit --colors tests
